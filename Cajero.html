@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./Index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CajeroMenù</title>
+</head>
+<body>
+    <h1>Bienvenido a tu banca en linea</h1>
+    <label for="" >Saldo cuenta # 1</label>
+    <input type="text" name="Cantidad1" id="cuenta1" value="500"></imput><br><br>
+    <label for="" >Saldo cuenta # 2</label>
+    <input type="text" name="Cantidad2" id="cuenta2" value="900"></imput><br><br>
+    <label for="" >Saldo cuenta # 3</label>
+    <input type="text" name="Cantidad3" id="cuenta3" value="300"></imput><hr>
+   <h2>Transferencias</h2>
+   <label for="" >Transferir:</label>
+   <input type="text" name="" id="cant" placeholder="cantidad"><br><br>
+   <input type="button" value="De la cuenta #1 hacia la cuenta #2" id="btn2" onclick="movimiento1()">
+   <input type="button" value="De la cuenta #2 hacia la cuenta #1" id="btn3" onclick="movimiento2()">
+   <input type="button" value="De la cuenta #1 hacia la cuenta #3" id="btn4" onclick="movimiento3()"><br><br>
+   <input type="button" value="De la cuenta #3 hacia la cuenta #1" id="btn5" onclick="movimiento4()">
+   <input type="button" value="De la cuenta #2 hacia la cuenta #3" id="btn6" onclick="movimiento5()">
+   <input type="button" value="De la cuenta #3 hacia la cuenta #2" id="btn7" onclick="movimiento6()"><hr>
+   <h2>Hacer deposito a...</h2>
+   <input type="text" name="" id="Dep" placeholder="cantidad"><br><br>
+   <input type="button" value="la cuenta #1" id="btn8" onclick="movimiento7()">
+   <input type="button" value="la cuenta #2" id="btn9" onclick="movimiento8()">
+   <input type="button" value="la cuenta #3" id="btn10" onclick="movimiento9()"><hr>
+   <h2>Retirar de la cuenta...</h2>
+   <input type="text" name="" id="Ret" placeholder="cantidad"><br><br>
+   <input type="button" value="Cuenta #1" id="btn11" onclick="movimiento10()">
+   <input type="button" value="Cuenta #2" id="btn12" onclick="movimiento11()">
+   <input type="button" value="Cuenta #3" id="btn13" onclick="movimiento12()">
+</body>
+<script src="./Index.js"></script>
+</html>
